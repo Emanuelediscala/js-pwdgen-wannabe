@@ -1,4 +1,7 @@
 body {
     background-color: black;
-    color: white;
+    color: black;
+}
+.marginTop200px {
+    margin-top: 200px;
 }

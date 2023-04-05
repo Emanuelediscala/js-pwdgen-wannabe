@@ -1,20 +1,24 @@
 
+// NOME INPUT
+
 let nome = prompt ("Inserisci il tuo nome");
 
-console.log(`Il nome dell'utente è  ${nome}`);
+// COGNOME INPUT
 
 let cognome = prompt ("Inserisci il tuo cognome"); 
 
-console.log(`Il cognome dell'utente è ${cognome}`);
+// COLORE PREFERITO
 
 let colorepreferito = prompt ("Inserisci il tuo colore preferito");
 
-console.log(`Il cognome dell'utente è ${colorepreferito}`);
+// Anno Corrente
 
 let annocorrente = 2023;
 
+// password
+
 let password = `${nome}${cognome}${colorepreferito}${annocorrente}`;
 
-console.log(`${password}`);
+// Function calc
 
 document.getElementById("password").innerText = password;
